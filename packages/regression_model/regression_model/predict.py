@@ -19,8 +19,10 @@ _price_pipe = load_pipeline(file_name=pipeline_file_name)
 def make_prediction(*, input_data: t.Union[pd.DataFrame, dict],
                     ) -> dict:
     """Make a prediction using a saved model pipeline.
+
     Args:
         input_data: Array of model prediction inputs.
+
     Returns:
         Predictions for each input row, as well as the model version.
     """
