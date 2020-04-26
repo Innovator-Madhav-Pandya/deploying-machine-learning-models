@@ -1,4 +1,4 @@
- import json
+import json
 import math
 
 from api import __version__ as api_version
@@ -6,7 +6,6 @@ from api import __version__ as api_version
 
 def test_health_endpoint_returns_200(flask_test_client):
     # When
-@@ -14,6 +16,17 @@ def test_health_endpoint_returns_200(flask_test_client):
     assert response.status_code == 200
 
 
