@@ -1,9 +1,7 @@
-@@ -1,13 +1,20 @@
 from flask import Flask
 
 from api.config import get_logger
 
-def create_app() -> Flask:
 
 _logger = get_logger(logger_name=__name__)
 
