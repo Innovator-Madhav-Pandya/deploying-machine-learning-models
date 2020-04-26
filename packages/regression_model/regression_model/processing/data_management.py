@@ -45,6 +45,7 @@ def load_pipeline(*, file_name: str) -> Pipeline:
 def remove_old_pipelines(*, files_to_keep: t.List[str]) -> None:
     """
     Remove old model pipelines.
+
     This is to ensure there is a simple one-to-one
     mapping between the package version and the model
     version to be imported and used by other applications.
